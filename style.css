@@ -1,0 +1,186 @@
+body
+{
+    background-color: #161616;
+    margin: 0 !important;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+nav
+{
+    background-color: #242935;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    text-align: center;
+    color: #fff;
+    font-size: 20pt;
+    font-family: 'Saira Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    max-height: 60px;
+    z-index: 3;
+}
+
+nav li
+{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+    padding: 10px;
+    position: relative;
+}
+
+nav a, nav a:active, nav a:visited
+{
+    text-decoration: none;
+    color: #fff;
+    max-height: 60px;
+    position: relative;
+}
+
+nav li:hover
+{
+    background-color: #50596d;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+main
+{
+    display: flex;
+    width: 100%;
+    background-color: rgba(22,22,22, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 10px;
+    clear: both;
+    cursor: default;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+aside
+{
+    display: flex;
+    width: 100%;
+    background-color: rgba(22,22,22, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 200pt;
+    clear: both;
+    cursor: default;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+
+main:hover, aside:hover
+{
+    background-color: rgba(29,29,29, 0.5);
+    transition: 0.5s;
+}
+
+header .title
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    vertical-align: middle;
+    color: #fff;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 90pt;
+}
+
+
+
+
+header
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+    margin-bottom: 200pt;
+}
+
+header::before
+{
+    content: "";
+    background-image: url('img/tlo.jpg');
+    background-size: cover;
+    position: absolute;
+    background-position: top center;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+header img
+{
+    opacity: 20%;
+}
+
+
+  h1
+  {
+    color: #fff;
+    text-align: center;
+    font-size: 50pt;
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+    color: #99a0da;
+    font-weight: 600;
+  }
+
+  .typing
+  {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40pt;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #99a0da;
+  }
+  
+  .typing {
+    margin-right: 8px;    
+  }
+
+  main article
+  {
+    clear: both;
+    width: 60%;
+    text-align: justify;
+    font-size: 16pt;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: 0px;
+  }
+
+  article
+  {
+    clear: both;
+    width: 60%;
+    text-align: justify;
+    font-size: 16pt;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: 50px;
+  }
+
+small
+  {
+    font-size: 16pt; 
+    color: #99a0da;
+  }
