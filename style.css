@@ -189,4 +189,6 @@ small
 footer
 {
     width: 100%;
+    text-align: center;
+    color: #acacac;
 }
