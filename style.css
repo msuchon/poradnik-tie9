@@ -18,7 +18,6 @@ nav
     display: flex;
     justify-content: center;
     max-height: 60px;
-    z-index: 3;
 }
 
 nav li
@@ -48,6 +47,74 @@ nav li:hover
     cursor: pointer;
 }
 
+.menuBtn 
+{
+  font-size: 30px;
+  font-weight: bolder;
+  cursor: pointer;
+  display: none;
+}
+
+/* responsive navbar */
+
+@media screen and (max-width: 600px) {
+  .menuBtn {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  nav {
+    justify-content: right;
+  }
+
+  nav .navLinks {
+    display: none;
+  }
+
+  .sideNav {
+    display: block !important;
+  }
+}
+
+.sideNav
+{
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0%;
+  background-color: rgba(29,32,41, 0.95);
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: block;
+  padding-top: 60px;
+  display: none;
+}
+
+.sideNav a {
+  padding: 8px 8px 8px 40px;
+  display: block;
+  font-size: 25px;
+  color: #fff;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+
+
+.sideNav a:hover {
+  color: #99a0da;
+}
+
+.sideNav .closeBtn
+{
+  position: absolute;
+  right: 9px;
+  font-size: 27px;
+  top: -5px;
+}
+
+
+
 main
 {
     display: flex;
@@ -62,6 +129,7 @@ main
     cursor: default;
     padding: 10px;
     flex-wrap: wrap;
+    min-height: 528px;
 }
 
 aside
@@ -90,15 +158,12 @@ main:hover, aside:hover
 
 header .title
 {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 100%;
     vertical-align: middle;
     color: #fff;
     font-family: 'Saira Condensed', sans-serif;
-    font-size: 90pt;
+    font-size: 5em;
+    margin-top: 0.5em;
 }
 
 
