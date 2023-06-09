@@ -81,6 +81,11 @@ nav li:hover
   {
     width: 90%  !important;
   }
+
+  header .title
+  {
+    font-size: 3.5em !important;
+  }
 } 
 
 .sideNav
