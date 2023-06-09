@@ -206,8 +206,7 @@ header img
     font-family: 'Antonio', sans-serif;
     text-transform: uppercase;
     color: #99a0da;
-    font-weight: 600;
-    font-weight: normal;
+    font-weight: 500;
   }
 
   .typing
@@ -226,7 +225,7 @@ header img
   main article
   {
     clear: both;
-    width: 60%;
+    width: 90%;
     text-align: justify;
     font-size: 16pt;
     font-family: 'Barlow Condensed', sans-serif;
