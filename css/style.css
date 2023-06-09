@@ -57,12 +57,19 @@ nav li:hover
   display: none;
 }
 
+
 /* responsive navbar */
 
 @media screen and (max-width: 600px) {
   .menuBtn {
     display: flex;
     margin-right: 20px;
+  }
+
+  .menuBtn:hover
+  {
+    color: #99a0da;
+    transition: 0.5s;
   }
 
   nav {
