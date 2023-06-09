@@ -19,52 +19,26 @@
 <script type="text/javascript">
 
 $(document).ready( function () {
-    var stopAnimation = false;
-    var stopAnimation2 = false;
-    var stopAnimation3 = false;
-    $('#theFirst').on('mouseover', function (event) {
-    event.preventDefault();
     
-    if(stopAnimation == false)
-    {
         var typed = new Typed('#firstSection', {
         strings: ['Czym jest GitHub?'],
         typeSpeed: 100,
         showCursor: false
         });
-        stopAnimation = true;
-    }
-    });
 
-
-    $('#theSecond').on('mouseover', function (event) {
-    event.preventDefault();
-    
-    if(stopAnimation2 == false)
-    {
             var typed = new Typed('#secondSection', {
             strings: ['Git'],
             typeSpeed: 100,
             showCursor: false
         });
-        stopAnimation2 = true;
-    }
-    });
+        
 
-
-    $('#theThird').on('mouseover', function (event) {
-    event.preventDefault();
-    
-    if(stopAnimation3 == false)
-    {
-            var typed = new Typed('#thirdSection', {
+        var typed = new Typed('#thirdSection', {
             strings: ['Od czego zacząć?'],
             typeSpeed: 100,
             showCursor: false
         });
-        stopAnimation3 = true;
-    }
-    });
+
     $('#sidenav').width('0%');
 });
 </script>
@@ -110,7 +84,7 @@ $(document).ready( function () {
 <article>
 <h1 id="firstSection"></h1>
 <br/>
-<p id="theFirst"><font color="#99a0da">GitHub</font> jest platformą, działającą na zasadzie hostingu, przeznaczoną na projekty progamistyczne. Dzięki temu serwisowi możesz za darmo podzielić się z innymi tym, nad czym aktualnie pracujesz tak, aby inni mogli z tego skorzystać bądź współtworzyć z Tobą! Portal stworzony został przez <font color="#99a0da">Chrisa Wanstrath&lsquo;a</font>, <font color="#99a0da">PJ Hyett</font> oraz <font color="#99a0da">Toma Prestona-Wernera</font> i działa od <font color="#99a0da">kwietnia 2008 roku</font>. W 2018 serwis przejęty został przez firmę <font color="#99a0da">Microsoft</font>. GitHub opiera się o system kontroli wersji o nazwie <font color="#99a0da">Git</font>.</p>
+<p><font color="#99a0da">GitHub</font> jest platformą, działającą na zasadzie hostingu, przeznaczoną na projekty progamistyczne. Dzięki temu serwisowi możesz za darmo podzielić się z innymi tym, nad czym aktualnie pracujesz tak, aby inni mogli z tego skorzystać bądź współtworzyć z Tobą! Portal stworzony został przez <font color="#99a0da">Chrisa Wanstrath&lsquo;a</font>, <font color="#99a0da">PJ Hyett</font> oraz <font color="#99a0da">Toma Prestona-Wernera</font> i działa od <font color="#99a0da">kwietnia 2008 roku</font>. W 2018 serwis przejęty został przez firmę <font color="#99a0da">Microsoft</font>. GitHub opiera się o system kontroli wersji o nazwie <font color="#99a0da">Git</font>.</p>
 <br/>
 <center>
 <img src="img/github-icon-original.svg" width="180" height="auto"/>
@@ -118,7 +92,7 @@ $(document).ready( function () {
 </article>
 </main>
 <aside>
-    <article id="theSecond">
+    <article>
     <h1 id="secondSection"></h1>
     <br/>
     <p><font color="#99a0da">Git</font> to rozproszony system kontroli wersji, oparty o licencję <font color="#99a0da">GNU GPL</font>, stworzony przez twórcę jądra Linux - <font color="#99a0da">Linusa Torvaldsa</font> przy współpracy z <font color="#99a0da">Junio Hamano</font></p>
@@ -128,7 +102,7 @@ $(document).ready( function () {
     </center>
     </article>
 
-    <article id="theThird">
+    <article>
         <h1 id="thirdSection"></h1>
         <br/>
         <p>Git</font> to rozproszony system kontroli wersji, oparty o licencję <font color="#99a0da">GNU GPL</font>, stworzony przez twórcę jądra Linux - <font color="#99a0da">Linusa Torvaldsa</font> przy współpracy z <font color="#99a0da">Junio Hamano</font></p>
