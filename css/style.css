@@ -105,10 +105,16 @@ nav li:hover
 .sideNav a {
   padding: 8px 8px 8px 40px;
   display: block;
-  font-size: 25px;
   color: #fff;
   transition: 0.5s;
   text-decoration: none;
+  font-size: 2.3em;
+}
+
+.sideNav .sub-item
+{
+  font-size: 1.7em !important;
+  margin-left: 60px;
 }
 
 

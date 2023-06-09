@@ -49,7 +49,6 @@ $(document).ready( function () {
         <ul>
         <a href="/"><li>START</li></a>
         <a href="#"><li>SPIS TREŚCI</li></a>
-        <a href="#"><li>O AUTORZE</li></a>
         </ul>
     </div>
 </nav>
@@ -58,15 +57,15 @@ $(document).ready( function () {
 
 <div class="sideNav" id="sidenav">
     <a href="#" class="closeBtn" id="closebtn">&#10006;</a>
-    <a href="/">START</a>
-    <a href="#">SPIS TREŚCI</a>
-    <a href="#">O AUTORZE</a>
+    <a href="/">&#127968; START</a>
+    <a href="#">&#128220; SPIS TREŚCI</a>
+    <a href="#" class="sub-item">I. Wprowadzenie</a>
 </div>
 
 <script>
     $('#menubtn').on('click', function (event) {
     event.preventDefault();
-    $('#sidenav').width('50%');
+    $('#sidenav').width('100%');
     $('#menubtn').hide();
     });
 
