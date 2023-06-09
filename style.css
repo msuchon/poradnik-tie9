@@ -207,6 +207,7 @@ header img
     text-transform: uppercase;
     color: #99a0da;
     font-weight: 600;
+    font-weight: normal;
   }
 
   .typing
