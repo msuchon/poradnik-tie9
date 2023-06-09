@@ -187,7 +187,7 @@ header
 header::before
 {
     content: "";
-    background-image: url('./img/tlo.jpg');
+    background-image: url('../img/tlo.jpg');
     position: absolute;
     background-position: top center;
     top: 0px;
