@@ -388,6 +388,57 @@ small
     color: #99a0da;
   }
 
+.bottom-right-navbar
+  {
+    display: flex;
+    font-size: 1.5em;
+    justify-content: right !important;
+    text-align: right;
+    float: left;
+    height: max-content;
+    color: #9b9b9b;
+    align-self: flex-end;
+    width: 50%;
+  }
+
+  .bottom-right-navbar a
+  {
+    text-decoration: none;
+    color: #9b9b9b !important;
+  }
+
+  .bottom-right-navbar a:hover
+  {
+    text-decoration: none;
+    color: #c2c2c2 !important;
+  }
+
+  .bottom-left-navbar
+  {
+    display: flex;
+    font-size: 1.5em;
+    justify-content: left;
+    text-align: left;
+    height: max-content;
+    color: #9b9b9b;
+    align-self: flex-end;
+    float: left;
+    width: 50%;
+  }
+
+  .bottom-left-navbar a
+  {
+    text-decoration: none;
+    color: #9b9b9b !important;
+  }
+
+  .bottom-left-navbar a:hover
+  {
+    text-decoration: none;
+    color: #c2c2c2 !important;
+  }
+
+
 
 footer
 {
@@ -397,4 +448,64 @@ footer
   display: flex;
   align-content: center;
   justify-content: center;
+}
+
+span.term
+{
+  color: #c7ccfa;
+}
+
+a, a:visited, a:active
+{
+  color: #c7ccfa;
+  text-decoration: none;
+}
+
+main a:hover
+{
+  color: #717597;
+  transition: 0.5s;
+}
+
+main article h3
+{
+  color: #fff;
+  text-align: justify;
+  font-size: 1em;
+  font-family: 'Antonio', sans-serif;
+  font-weight: 500;
+}
+
+main article h4
+{
+  color: #99a0da;
+  font-size: 1.2em;
+  font-family: 'Antonio', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-shadow: 2px 0px 6px #353639;
+}
+
+img.pics
+{
+  border: 3px solid #c7ccfa;
+  margin: auto !important;
+  text-align: center !important;
+  border-radius: 5px;
+  width: 50%;
+  height: auto;
+  display: flex;
+}
+
+img.pics::after
+{
+  content: 'Kliknij, aby powiększyć!';
+}
+
+small.hint
+{
+  justify-content: center; 
+  font-style: italic; 
+  display: flex;
+  font-size: 0.75em;
 }
